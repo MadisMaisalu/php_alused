@@ -1,5 +1,5 @@
 <?php
-/*Ülesanne 1 - Madis Maisalu - 24.11.20*/
+/*Ülesanne 3 - Madis Maisalu - 24.11.20*/
 
 ?>
 <html>
@@ -17,6 +17,9 @@
 <input id="4" name="4"></input>
 <label for="4">Sisesta siia alus 2</label>
 <br>
+
+
+
 <input type="submit" id="5">
 </form>
 <?php

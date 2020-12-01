@@ -1,5 +1,5 @@
 <?php
-/*Ülesanne 1 - Madis Maisalu - 24.11.20*/
+/*Ülesanne 2 - Madis Maisalu - 24.11.20*/
 
 $muutuja1 = 10;
 $muutuja2 = 20;
