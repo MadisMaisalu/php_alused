@@ -23,6 +23,17 @@ do{
     $kordus++;
 } while($kordus <=10);
 
-do {
-    echo
-}
+$number1 = 10;
+do{
+    echo $number1.'<br>';
+    $number1--;
+} while($number1 > 0);
+echo '<br>';
+
+$nummer = 1;
+do{
+    if ($nummer % 3 == 0) {
+        echo $nummer.'<br>';
+    }
+    $nummer++;
+} while ($nummer <= 100);
