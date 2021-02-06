@@ -1,8 +1,28 @@
 <?php
 function tervitus(){
-    echo "Tere, päikene!";
+    return "Tere, päikene!";
 }
 
-tervitus();
+echo tervitus();
 
-function ()
+function bootstrap(){
+    ?>
+    <!DOCTYPE html>
+    <html>
+    <body>
+    <h1>Bootstrapi uudiskirjaga liitumine</h1>
+    <form>
+        <label for="nimi">Eesnimi</label>
+        <input type="text" name="nimi" id="nimi"><br><br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email"><br><br>
+        <button>Liitu</button>
+    </form>
+    </body>
+    </html>
+    <?php
+}
+
+return bootstrap();
+
+?>
